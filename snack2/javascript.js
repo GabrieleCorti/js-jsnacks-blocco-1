@@ -13,6 +13,10 @@ if (parolaUno.length > parolaDue.length) {
 
   console.log("ricarica la pagina");
 
+} else if ( !isNaN(parseInt(parolaUno)) || !isNaN(parseInt(parolaDue)) ) {
+
+  console.log("ricarica la pagina");
+
 } else {
 
   console.log("le parole sono lunghe uguali");
