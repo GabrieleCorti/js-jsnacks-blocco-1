@@ -9,6 +9,10 @@ if (parolaUno.length > parolaDue.length) {
 
   console.log(parolaDue);
 
+} else if (parolaUno.length == 0 || parolaDue.length == 0) {
+
+  console.log("ricarica la pagina");
+
 } else {
 
   console.log("le parole sono lunghe uguali");
