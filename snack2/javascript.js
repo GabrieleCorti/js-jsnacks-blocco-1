@@ -1,21 +1,16 @@
+var parolaUno = prompt("inserisci la prima parola");
+var parolaDue = prompt("inserisci la seconda parola");
 
-var nUno = parseInt(prompt("inserisci il primo numero"));
-var nDue = parseInt(prompt("inserisci il secondo numero"));
+if (parolaUno.length > parolaDue.length) {
 
-if (nUno > nDue) {
+  console.log(parolaUno);
 
-  console.log(nUno);
+} else if (parolaUno.length < parolaDue.length) {
 
-} else if (nUno < nDue) {
-
-  console.log(nDue);
-
-} else if (isNaN(nUno) || isNaN(nDue)) {
-
-  console.log("non sai cosa sia un numero perchè probailmente non hai finito la prima elementare, ricarica la pagina e chiedi aiuto ad un adulto");
+  console.log(parolaDue);
 
 } else {
 
-  console.log("i due numeri sono uguali");
+  console.log("le parole sono lunghe uguali");
 
 }
