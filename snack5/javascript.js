@@ -1,15 +1,15 @@
-var numero;
-var sum = 0;
+var numeriDispari = [];
 
-for (var i = 0; i < 10; i++ ) {
+for (var i = 0; i < 6; i++) {
 
-  numero = parseInt(prompt("scrivi un numero"));
-  if (!isNaN(numero)) {
+  var numeroChiesto = parseInt(prompt("dimmi un numero"));
 
-    sum = sum + numero;
-    
+  if (numeroChiesto % 2 == 1) {
+
+    numeriDispari.push(numeroChiesto);
+
   }
 
 }
 
-console.log(sum);
+console.log(numeriDispari)
