@@ -4,7 +4,7 @@ var tuoNome = prompt("Dimmi il tuo nome");
 if (tuoNome != 0) {
 
   for (var i = 0; i < lista.length; i++ ) {
-    if (tuoNome == lista[i]) {
+    if (tuoNome.toLowerCase() == lista[i].toLowerCase()) {
 
       var permesso = true;
 
