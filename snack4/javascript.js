@@ -1,21 +1,28 @@
+var lista = ["fgjvdafgfe", "dsfvafd", "sdfd", "guest"];
+var tuoNome = prompt("Dimmi il tuo nome");
 
-var nUno = parseInt(prompt("inserisci il primo numero"));
-var nDue = parseInt(prompt("inserisci il secondo numero"));
+if (tuoNome != 0) {
 
-if (nUno > nDue) {
+  for (var i = 0; i < lista.length; i++ ) {
+    if (tuoNome == lista[i]) {
 
-  console.log(nUno);
+      var permesso = true;
 
-} else if (nUno < nDue) {
+    }
+  }
 
-  console.log(nDue);
+  if(permesso == true) {
 
-} else if (isNaN(nUno) || isNaN(nDue)) {
+    console.log("puoi entrare");
 
-  console.log("non sai cosa sia un numero perchè probailmente non hai finito la prima elementare, ricarica la pagina e chiedi aiuto ad un adulto");
+  } else {
+
+    console.log("non puoi entrare");
+
+  }
 
 } else {
 
-  console.log("i due numeri sono uguali");
+  console.log("ricarica la pagina")
 
 }
