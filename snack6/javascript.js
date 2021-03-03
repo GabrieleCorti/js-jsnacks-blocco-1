@@ -1,7 +1,16 @@
 var numeroUtente = parseInt(prompt("dimmi un numero"))
 
-for (var i = 1; i <= numeroUtente; i++ ) {
+// for (var i = 1; i <= numeroUtente; i++ ) {
+//
+//   console.log(i * i);
+//
+// }
+var i = 1;
+while (i <= numeroUtente) {
 
-  console.log(i * i);
+  if (!isNaN(numeroUtente)) {
+    console.log(i * i);
+  }
+  ++i;
 
 }
