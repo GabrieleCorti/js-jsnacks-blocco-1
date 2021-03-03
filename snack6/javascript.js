@@ -1,15 +1,7 @@
-var numero;
-var sum = 0;
+var numeroUtente = parseInt(prompt("dimmi un numero"))
 
-for (var i = 0; i < 10; i++ ) {
+for (var i = 1; i <= numeroUtente; i++ ) {
 
-  numero = parseInt(prompt("scrivi un numero"));
-  if (!isNaN(numero)) {
-
-    sum = sum + numero;
-    
-  }
+  console.log(i * i);
 
 }
-
-console.log(sum);
