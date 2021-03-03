@@ -1,15 +1,8 @@
-var numero;
-var sum = 0;
+var i = 0
 
-for (var i = 0; i < 10; i++ ) {
+do {
 
-  numero = parseInt(prompt("scrivi un numero"));
-  if (!isNaN(numero)) {
+  console.log(Math.pow(2, i));
+  i++;
 
-    sum = sum + numero;
-    
-  }
-
-}
-
-console.log(sum);
+} while (Math.pow(2, i) < 1000);
