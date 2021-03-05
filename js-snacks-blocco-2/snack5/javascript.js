@@ -11,6 +11,8 @@ if (arrUno.length > arrDue.length){
   var major = arrDue;
   var minor = arrUno;
 
+} else {
+  console.log("gli arrai hanno la stessa lunghezza");
 }
 
 
