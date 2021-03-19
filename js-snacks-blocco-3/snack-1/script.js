@@ -9,7 +9,7 @@ var bici = [
     },
     {
         nome: "bici3",
-        peso: 9000,
+        peso: 1000,
     },
     {
         nome: "bici4",
@@ -17,7 +17,7 @@ var bici = [
     },
     {
         nome: "bici5",
-        peso: 1500,
+        peso: 3500,
     }
 ]
 
@@ -27,7 +27,7 @@ for (var i = 0; i < bici.length; i++) {
      
     if (bici[i]["peso"] < biciPeso ) {
 
-        biciPeso = bici[i]["peso"];
+        biciPeso = bici[i]["nome"];
 
     }
     
